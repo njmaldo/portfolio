@@ -15,15 +15,15 @@
     width: 100%;
 }
 .contenido__overlay {
-    color: white;
-    overflow: hidden;
     background-color: #00000070;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    color: white;
     font-size: 75px;
     font-weight: 700;
-    height: 52.3vh;
+    height: 70%;
+    overflow: hidden;
     position: absolute;
     text-align: center;
     top: 3.9rem;
@@ -37,7 +37,7 @@
     .contenido__overlay {
         padding: 2.5rem;
         padding-top: 5.5rem;
-        height: 32vh;
+        height: 31vh;
     }
 }
 @media screen and (max-width: 375px) {
@@ -46,7 +46,7 @@
     }
     .contenido__overlay {
         font-size: 60px;
-        height: 30vh;
+        height: 29vh;
         padding: 2.5rem;
     }
 }
