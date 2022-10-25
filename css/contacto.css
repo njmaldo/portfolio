@@ -1,0 +1,154 @@
+.contacto {
+    grid-column: 1/5;
+    margin: 3.5rem 1.5rem;
+}
+
+.contacto__formulario {
+    border-radius: 5px;
+    background: #fff;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contacto__ref {
+    margin: 1.5rem;
+}
+
+.input-container {
+    display: inline-flex;
+    margin: 1.5rem 0rem 1.5rem 0rem;
+    position: relative;
+}
+
+.input {
+    border-radius: 5px;
+    padding: 1.375rem 0.5rem 0.5rem;
+}
+
+.input::placeholder {
+    visibility: hidden;
+    color: #00000000;
+}
+
+.address-box {
+    margin: 0.5rem;
+}
+
+.form__label {
+    margin-bottom: 1rem;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.input-label {
+    position: absolute;
+    top: 1.375rem;
+    left: 0.5rem;
+    transition: all 0.25s;
+}
+
+.input:not(:placeholder-shown)+.input-label,
+.input:focus+.input-label {
+    font-size: 0.875rem;
+    top: 0.25rem;
+    transition: all 0.25s;
+}
+
+.input-message-error {
+    display: none;
+}
+
+.input-container--invalid .input-message-error {
+    color: var(--warning-color);
+    display: block;
+    margin-top: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+.address-box .fa,
+.fa-brands {
+    color: #024252;
+}
+
+.contacto__btn {
+    text-align: center;
+}
+
+
+.textarea-container {
+    border-radius: 5px;
+    margin-bottom: 1.5rem;
+    border: 1px solid #cccccc;
+}
+
+.textarea {
+    box-sizing: border-box;
+    border: 1px solid var(--secondary-color);
+    border-radius: 5px;
+    margin-bottom: 2rem;
+    min-height: 3rem;
+    padding: 0.5rem;
+    width: 100%;
+}
+
+.textarea::placeholder {
+    visibility: hidden;
+}
+
+.textarea:focus {
+    outline: none;
+}
+
+.textarea-label {
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+    transition: all 0.25s;
+}
+
+.textarea:not(:placeholder-shown)+.textarea-label,
+.textarea:focus+.textarea-label {
+    font-size: 0.875rem;
+    top: -1.25rem;
+    transition: all 0.25s;
+}
+
+.textarea-container--invalid {
+    margin-bottom: 0.5rem;
+}
+
+.textarea-container--invalid .textarea {
+    border: 1px solid var(--warning-color);
+}
+
+.textarea-container--invalid .textarea-label {
+    color: var(--warning-color);
+}
+
+.textarea-mensage-error {
+    display: none;
+}
+
+.textarea-container--invalid .textarea-mensage-error {
+    display: block;
+    color: var(--warning-color);
+    margin-top: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+@media screen and (max-width: 375px) {
+    .contacto__formulario {
+        display: block;
+    }
+
+    .input-container {
+        display: block;
+        text-align: center;
+    }
+
+    .input-label {
+        left: 5.5rem;
+    }
+}

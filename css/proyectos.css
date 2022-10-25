@@ -1,0 +1,100 @@
+/* ------ Proyectos  ---- */
+.proyectos {
+    grid-column: 1/5;
+    margin-top: 3.5rem;
+}
+.project-img {
+    width: 50%;
+    height: 40%;
+}
+.contenedor-de-proyectos {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 0.5rem;
+}
+
+.titulo-de-proyecto {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: var(--bottom-margin);
+    margin-top: var(--bottom-margin);
+}
+.detalles-de-proyecto {
+    margin: var(--bottom-margin);
+}
+.tarjeta-de-proyecto p {
+    padding: 1rem;
+    font-size: 14px;
+}
+.tarjeta-de-proyecto {
+    align-items: center;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 4px 4px 5px 0px var(--primary-shadow);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    max-width: 350px;
+}
+.tarjeta-de-proyecto:hover {
+    background-color: #f1f1f1;
+}
+.button {
+    align-items: center;
+    color: #fff;
+    background: #024252;
+    border: none;
+    border-radius: 11px;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: 'Exo 2';
+    font-size: 14px;
+    font-weight: 500;
+    height: 30px;
+    justify-content: center;
+    margin-bottom: 1rem;
+    overflow: hidden;
+    position: relative;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .3s ease all;
+    width: 65%;
+}
+.button span {
+    position: relative;
+    transition: .3s ease all;
+    z-index: 2;
+}
+.button::after {
+    content: "";
+    background: #009688;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: -80px;
+    transition: .4s ease-in-out all;
+    width: 100%;
+    z-index: 1;
+}
+.button:hover::after {
+    top: 0;
+}
+@media screen and (max-width: 768px) {
+    .tarjeta-de-proyecto{
+        width: 350px;
+    }
+    .tarjeta-de-proyecto p {
+        padding: 0.2rem;
+    }
+}
+@media screen and (max-width: 375px) {
+    .contenedor-de-proyectos {
+        display: block;
+    }
+    .tarjeta-de-proyecto {
+        width: 95%;
+    }
+}

@@ -1,0 +1,71 @@
+/* ------ Habilidades  ---- */
+.habilidades {
+    grid-column: 1/5;
+    text-align: center;
+    margin-top: 3.5rem;
+}
+.encabezado-habilidad {
+    margin-bottom: 1rem;
+}
+.tutulo-habilidades {
+    margin: 2.5rem 0rem 2rem 0rem;
+    text-align: center;
+}
+.contenedor-habilidad img {
+    padding: 1.25rem;
+}
+.icono {
+    width: 9.875rem;
+    height: 9.25rem;
+}
+.icono:hover {
+    transform: scale(1.1);
+    transition: 400ms ease-in-out all;
+}
+.tarjeta-icono {
+    background-color: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 4px 4px 5px 0px var(--primary-shadow);
+    padding: 1rem;
+    margin: 0.6rem;
+    display: inline-block;
+}
+.line-1 {
+    border-radius: 0.5rem;
+    text-align: center;
+    font-size: 12px;
+    display: flex;
+    background: rgb(241,81,81);
+    background: linear-gradient(90deg, rgba(241,81,81,1) 0%, rgba(245,166,30,1) 23%, rgba(9,213,43,1) 100%);
+    color: #fff;
+    position: relative;
+    justify-content: space-evenly;
+    padding: 0.1rem;
+    margin-left: 0.2rem;
+}
+@media screen and (max-width: 768px){
+    .tarjeta-icono {
+        background-color: #fff;
+        border-radius: 0.5rem;
+        box-shadow: 4px 4px 5px 0px var(--primary-shadow);
+        padding: 0.5rem;
+        margin: 0.6rem;
+        display: inline-block;
+    }
+    .icono {
+        width: 8.875rem;
+        height: 8.25rem;
+    }
+    .icono:hover {
+        height: 8rem;
+    }
+}
+/* @media screen and (max-width: 375px) {
+    .icono {
+        width: 7.875rem;
+        height: 7.25rem;
+    }
+    .icono:hover {
+        height: 7rem;
+    }
+} */

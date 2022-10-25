@@ -1,0 +1,17 @@
+.cv {
+    width: 1280px;
+    height: 860px;
+    background: var(--oscuro);
+    
+}
+@media screen and (max-width: 768px){
+    .cv {
+        width: 768px;
+    }
+}
+@media screen and (max-width: 375px){
+    .cv {
+        width: 375px;
+
+    }
+}
