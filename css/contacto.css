@@ -11,7 +11,7 @@
 }
 
 .contacto__ref {
-    margin: 1.5rem;
+    margin: 2.5rem;
 }
 
 .input-container {
@@ -71,18 +71,14 @@
 .fa-brands {
     color: #024252;
 }
-
 .contacto__btn {
     text-align: center;
 }
-
-
 .textarea-container {
     border-radius: 5px;
     margin-bottom: 1.5rem;
     border: 1px solid #cccccc;
 }
-
 .textarea {
     box-sizing: border-box;
     border: 1px solid var(--secondary-color);
@@ -92,22 +88,18 @@
     padding: 0.5rem;
     width: 100%;
 }
-
 .textarea::placeholder {
     visibility: hidden;
 }
-
 .textarea:focus {
     outline: none;
 }
-
 .textarea-label {
     position: absolute;
     top: 0.5rem;
     left: 0.5rem;
     transition: all 0.25s;
 }
-
 .textarea:not(:placeholder-shown)+.textarea-label,
 .textarea:focus+.textarea-label {
     font-size: 0.875rem;
@@ -150,5 +142,9 @@
 
     .input-label {
         left: 5.5rem;
+    }
+    .contacto__ref {
+        margin: 1.5rem;
+        padding: 0.5rem;
     }
 }

@@ -8,45 +8,44 @@
     grid-template-rows: repeat(4, auto);
 }
 .contenido__banner {
+    background-image: url(../images/paisaje.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
     grid-column: 1/5;
-}
-.contenido__background {
+    height: 65vh;
+    margin-top: 2.7rem;
     position: relative;
-    width: 100%;
+    text-align: center;
 }
 .contenido__overlay {
-    background-color: #00000070;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
-    font-size: 75px;
-    font-weight: 700;
-    height: 73vh;
-    overflow: hidden;
+    background: rgba(0, 0, 0, .5);
+    bottom: 0;
+    content: '';
+    left: 0;
+    right: 0;
     position: absolute;
-    text-align: center;
-    top: 3.9rem;
-    padding-top: 7rem;
-    width: 100%;
+    top: 0;
   }
+  .contenido__text-center {
+	padding: 7.75rem;
+    color: #fff;
+	font-size: 75px;
+    font-weight: 700;
+}
 @media screen and (max-width: 768px){
-    .contenido__background {
-        height: 35vh;
+    .contenido__banner {
+        height: 45vh;
     }
-    .contenido__overlay {
-        padding: 2.5rem;
-        padding-top: 5.5rem;
-        height: 31vh;
-    }
+    
 }
 @media screen and (max-width: 375px) {
-    .contenido__background {
-        height: 35vh;
+    .contenido__banner {
+        height: 45vh;
     }
-    .contenido__overlay {
+    .contenido__text-center {
         font-size: 60px;
-        height: 29vh;
-        padding: 2.5rem;
+        padding: 5.5rem;
     }
+    
 }
