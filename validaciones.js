@@ -14,9 +14,7 @@ export const validar = (input) => {
         // input.parentElement.querySelector('.textarea-message-error').innerHTML = mostrarMensajeDeError(tipoDeInput,input);
     }
 }
-const validador = {
-    // nacimiento: input => validarNacimiento(input),
-};
+const validador = {};
 
 const msgsError = {
     nombre: {
@@ -26,15 +24,10 @@ const msgsError = {
         valueMissing: 'El campo Email no puede estar vacio',
         typeMismatch: 'El correo no es válido.'
     },
-    password: {
-        valueMissing: 'El campo Contraseña no puede estar vacio',
-        patternMismatch: 'La contraseña debe tener entre 4 y 8 dígitos e incluir al menos un dígito numérico.'
-    }
 }
 const tipoDeErrores = [
     'valueMissing',
     'typeMismatch',
-    'patternMismatch',
     'customError'
 ]
 
