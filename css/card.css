@@ -21,7 +21,7 @@
     background: var(--primary-shadow);
     border: none;
     box-sizing: border-box;
-    border-bottom: 1px solid var(--primary-color);
+    border-bottom: 1px solid var(--oscuro);
     height: 3.25rem;
     padding: 1.375rem 0.5rem 0.5rem;
     width: 100%;

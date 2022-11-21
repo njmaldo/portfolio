@@ -35,6 +35,8 @@ body.dark {
     text-align: center;
     margin: 2.5rem 0 1rem 0;
 }
+.dark .input-label,
+.dark .input border,
 .dark .form__label,
 .dark .textarea-label,
 .dark .address-box,
