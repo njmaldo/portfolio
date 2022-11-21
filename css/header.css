@@ -7,7 +7,7 @@
     background-color: #009688;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    padding: 1.2rem;
+    padding: 2.5rem;
     position: relative;
 }
 .dark .header__navbar{
@@ -72,7 +72,7 @@
         align-items: center;
         width: 100%;
         height: 54vh;
-        margin-top: 38.6em;
+        margin-top: 41.5em;
         background-color: #cccccc;
         transform: translateX(170%);
         transition: all 600ms;
@@ -89,9 +89,16 @@
 }
 @media screen and (max-width: 375px) {
     .header__menu {
-        margin-top: 27em;
+        margin-top: 29.5em;
     }
     .header__navbar .menu_toggle {
-        transform: translateX(50%);
+        transform: translateX(35%);
+    }
+    .header__switch {
+        grid-column: 6/7;
+    }
+    .header__menu-bar {
+        grid-column: 11/12;
+
     }
 }

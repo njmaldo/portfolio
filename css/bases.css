@@ -6,11 +6,11 @@
     --primary-shadow: #C1C1C1;
     --bottom-margin: 0.5rem;
     --bottom-margin-2: 1rem;
-    --warning-color: red;
+    --warning-color: #df2525;
     --line-height: 1.7rem;
     --transition: 0.3s;
     --oscuro:#2c2c2c;
-    --sombraDark: 4px 4px 5px 0 rgba(170,170,170,.16);
+    --sombraDark: 1px 1px 5px 5px rgba(170, 170, 170, 0.25);
     --sombraLight: 10px 10px 20px rgba(0,0,0, .16);
 }
 
@@ -35,6 +35,9 @@ body.dark {
     text-align: center;
     margin: 2.5rem 0 1rem 0;
 }
+.dark .form__label,
+.dark .textarea-label,
+.dark .address-box,
 .dark .titulo,
 .dark .header__menu-bar {
     color: #fff;

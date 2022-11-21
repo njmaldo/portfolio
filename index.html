@@ -46,6 +46,7 @@
                 </div>
             </section>
             <!-- End Banner -->
+            <!-- Habilidades -->
             <section class="habilidades" id="habilidades">
                 <h2 class="titulo">Mis habilidades</h2>
                 <hr>
@@ -122,6 +123,8 @@
                     <div class="line-1" style="width:90%">MongoDB - 40%</div>
                 </div>
             </section>
+            <!-- End Habilidades -->
+            <!-- Proyectos -->
             <section class="proyectos" id="proyectos">
                 <h2 class="titulo">Algunos de mis proyectos</h2>
                 <hr>
@@ -170,6 +173,8 @@
                     </div>
                 </div>
             </section>
+            <!-- End Proyectos -->
+            <!-- about -->
             <section class="about" id="about">
                 <h2 class="titulo">Sobre Mí</h2>
                 <p class="yo">Mi nombre es Néstor, nací en un mundo analógico y tuve la oportunidad de vivir la revolución digital en primera persona. Trabajé en grandes empresas multinacionales del sector tecnológico con electrónica analógica y digital, 
@@ -211,6 +216,8 @@
                     
                 </div>
             </section>
+            <!-- End about -->
+            <!-- Certificados -->
             <section class="about" id="certificados">
                 <h2 class="titulo">Certificados</h2>
                 <div class="container-certificados">
@@ -240,78 +247,119 @@
                     </div>
                 </div>
             </section>
+            <!-- End Certificados -->
+            <!-- Contacto -->
             <section class="contacto">
                 <h2 class="titulo">Contacto</h2>
-                <form class="contacto__formulario">
-                    <fieldset>
-                        <div class="input-container">
-                            <input name="name" 
-                                    id="name" 
-                                    class="input" 
-                                    type="text" 
-                                    placeholder="Nombre" 
-                                    required>
-                            <label class="input-label" for="name">Nombre</label>
-                            <span class="input-message-error">Este campo no es valido</span>
-                        </div>
-                        <div class="input-container">
-                            <input name="email" 
-                                    id="email" 
-                                    class="input" 
-                                    type="email" 
-                                    placeholder="E-mail" 
-                                    required>
-                            <label class="input-label" for="email">Email</label>
-                            <span class="input-message-error">Este campo no es valido</span>
-                        </div>
-    
-                        <div class="textarea-container">
-                            <textarea name="textarea" 
-                                        class="textarea"
-                                        id="textarea" 
-                                        type="text" 
-                                        placeholder="Tu Mensaje"
-                                        required>
-                            </textarea>
-                            <label class="textarea-label" for="textarea">Mensaje</label>
-                            <span class="textarea-mensage-error">Debes escribir algún mensaje.</span>
-                        </div>
-                        <div class="contacto__btn">
-                            <button class="button"><span>Enviar</span></button>
-                        </div>
-                    </fieldset>
+                <div class="contacto__container">
                     <div class="contacto__ref">
-                        <!-- <div class="address-box">
-                            <p><i class="fa fa-phone"></i> Mobile </p>
-                            <p><a href="tel:+5492901487488">+5492901487488</a></p>
-                        </div> -->
-                        <hr>
                         <div class="address-box">
-                            <p><i class="fa fa-envelope"></i> E-Mail</p>
-                            <p><a href="mailto:nestorjmaldo@gmail.com">nestorjmaldo@gmail.com</a></p>
+                            <a href="#habilidades">Skills</a>
                         </div>
                         <hr>
                         <div class="address-box">
-                            <p><i class="fa-brands fa-github fa-xl"></i> GitHub</p>
-                            <p><a href="https://github.com/njmaldo">njmaldo</a>
-                            </p>
+                            <a href="#proyectos">Proyectos</a>
                         </div>
                         <hr>
                         <div class="address-box">
-                            <p><i class="fa fa-map-marker" aria-hidden="true"></i> Ubicación</p>
-                            <p>Ushuaia - Tierra del Fuego
-                                <br>Argentina</p>
+                            <a href="#about">Sobre mí</a>
+                        </div>
+                        <hr>
+                        <div class="address-box">
+                            <a href="#cursos">Cursos</a>
+                        </div>
+                        <hr>
+                        <div class="address-box">
+                            <a href="#certificados">Certificados</a>
+                        </div>
+                        <hr>
+                        <div class="address-box">
+                            <a href="cv.html">Curriculum</a>
                         </div>
                         <hr>
                     </div>
-            </form>
+                    <form class="contacto__formulario">
+                        <legend class="form__label">Tu opinión es importante... </legend>
+                        <fieldset>
+                            <div class="input-container">
+                                <input name="nombre" 
+                                        id="nombre" 
+                                        class="input" 
+                                        type="text" 
+                                        placeholder="Nombre" 
+                                        data-nombre
+                                        data-tipo="nombre"
+                                        required>
+                                <label class="input-label" for="nombre">Nombre</label>
+                                <span class="input-message-error">Este campo no es valido</span>
+                            </div>
+                            <div class="input-container">
+                                <input name="email" 
+                                        id="email" 
+                                        class="input" 
+                                        type="email" 
+                                        placeholder="E-mail" 
+                                        data-email
+                                        data-tipo="email"
+                                        required>
+                                <label class="input-label" for="email">Email</label>
+                                <span class="input-message-error">Este campo no es valido</span>
+                            </div>
+        
+                            <div class="textarea-container contacto_mensaje-container">
+                                <textarea class="textarea contacto_mensaje"
+                                          name="mensaje"
+                                          id="mensaje"
+                                          placeholder="Mensaje"
+                                          required
+                                          data-desc
+                                          data-tipo="mensaje">
+                                </textarea>
+                                <label class="textarea-label" for="mensaje">Mensaje</label>
+                                <span class="textarea-message-error">Este campo es requerido</span>
+                            </div>
+                            <!-- <div class="contacto__btn"> -->
+                                <button class="btn button" 
+                                        type="submit"><span>Enviar</span></button>
+                            <!-- </div> -->
+                        </fieldset>                       
+                    </form>
+                    
+                    <div class="contacto__ref ">
+                        <!-- <div class="address-box">
+                            <a href="tel:+5492901487488">
+                                <i class="fa-solid fa-mobile"></i> 
+                                Teléfono: <br><br> +5492901487488</a>
+                        </div> -->
+                        <!-- <hr> -->
+                        <div class="address-box right">
+                            <a href="mailto:nestorjmaldo@gmail.com">
+                                <i class="fa fa-envelope"></i>
+                                E-Mail:<br><br> nestorjmaldo@gmail.com</a>
+                        </div>
+                        <hr>
+                        <div class="address-box right">
+                            <p><i class="fa-brands fa-github fa-xl"></i> GitHub:</p>
+                            <p><a href="https://github.com/njmaldo"><br>Néstor J. M.</a>
+                            </p>
+                        </div>
+                        <hr>
+                        <div class="address-box right">
+                            <p><i class="fa fa-map-marker" aria-hidden="true"></i> Ubicación:</p>
+                            <br>Ushuaia - Tierra del Fuego
+                                <br><br>Argentina
+                        </div>
+                        <hr>
+                    </div>
+                </div>
             </section>
+            <!--End Contacto -->
         </main>
         <!-- End Main -->
         <!-- Section Footer -->
         <footer class="footer" id="footer" >
             <div class="footer_logo">
-                <img src="images/logo.png" alt="logo" />
+                <img src="/images/logo.png" alt="logo" />
             </div>
             <a class="arrow-up" href="#index" >
                 <i class="fa-solid fa-arrow-up fa-xl"></i></a>
@@ -332,6 +380,7 @@
         </footer>
 	    <!-- End Footer -->
     </section>
-<script src="portfolio.js"></script>
+<script src="/js/portfolio.js"></script>
+<script src="/js/app.js" type="module"></script>
 </body>
 </html>
