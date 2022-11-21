@@ -4,7 +4,7 @@ let btnSwitch = document.querySelector('#switch');
 
 menu_bar.addEventListener('click', () => {
     menu.classList.toggle('menu_toggle');
-    // setTimeout(toggle, 5000);
+    setTimeout(toggle, 5000);
 });
 const toggle = () => {
     location.reload();

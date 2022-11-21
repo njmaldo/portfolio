@@ -359,7 +359,7 @@
         <!-- Section Footer -->
         <footer class="footer" id="footer" >
             <div class="footer_logo">
-                <img src="/images/logo.png" alt="logo" />
+                <img src="images/logo.png" alt="logo" />
             </div>
             <a class="arrow-up" href="#index" >
                 <i class="fa-solid fa-arrow-up fa-xl"></i></a>
