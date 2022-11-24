@@ -33,27 +33,10 @@
 .habilidad__line {
     display: flex;
     padding-right: 10px;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     
 }
-.habilidad__line-progress {
-    background: rgb(241,81,81);
-    background: linear-gradient(90deg, rgba(241,81,81,1) 0%, rgba(245,166,30,1) 23%, rgba(9,213,43,1) 100%);
-    color: #fff;
-}
-.line-1 {
-    border-radius: 0.5rem;
-    text-align: center;
-    font-size: 12px;
-    display: flex;
-    background: rgb(241,81,81);
-    background: linear-gradient(90deg, rgba(241,81,81,1) 0%, rgba(245,166,30,1) 23%, rgba(9,213,43,1) 100%);
-    color: #fff;
-    position: relative;
-    justify-content: space-evenly;
-    padding: 0.1rem;
-    margin-left: 0.2rem;
-}
+
 @media screen and (max-width: 768px){
     .tarjeta-icono {
         background-color: #fff;

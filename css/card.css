@@ -18,6 +18,14 @@
     margin-bottom: 2.5rem;
   }
   .input {
+    border: none;
+    box-sizing: border-box;
+    border-bottom: 1px solid var(--secondary-color);
+    height: 3.25rem;
+    padding: 1.375rem 0.5rem 0.5rem;
+    width: 100%;
+}
+  /* .input {
     background: var(--primary-shadow);
     border: none;
     box-sizing: border-box;
@@ -25,4 +33,4 @@
     height: 3.25rem;
     padding: 1.375rem 0.5rem 0.5rem;
     width: 100%;
-}
+} */

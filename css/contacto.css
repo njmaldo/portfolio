@@ -5,7 +5,7 @@
     margin: 2rem 1rem 1rem 1rem;
 }
 .contacto__container {
-    background: var(--background-product);
+    background: var(--thirt-color);
     display: flex;
     justify-content: space-evenly;
     /* margin: 2rem 1rem 1rem 1rem; */

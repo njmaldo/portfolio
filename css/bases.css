@@ -2,7 +2,8 @@
 :root {
     --bg-color: #dedede;
     --primary-color: #024252;
-    --secondary-color: #
+    --secondary-color: #969696;
+    --thirt-color: #ffffff;
     --primary-shadow: #C1C1C1;
     --bottom-margin: 0.5rem;
     --bottom-margin-2: 1rem;
@@ -35,14 +36,21 @@ body.dark {
     text-align: center;
     margin: 2.5rem 0 1rem 0;
 }
-.dark .input-label,
-.dark .input border,
-.dark .form__label,
-.dark .textarea-label,
-.dark .address-box,
+
 .dark .titulo,
 .dark .header__menu-bar {
     color: #fff;
+}
+.dark .line {
+    background-color: #fff;
+}
+.line {
+    background: #024252;
+    display: block;
+    grid-column: 1/9;
+    height: 1px;
+    opacity: 0.2;
+    margin: 1rem 0 1rem;
 }
 .container {
     width: 100%;

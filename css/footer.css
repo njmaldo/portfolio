@@ -8,6 +8,15 @@
     margin-top: 3.5rem;
     padding: 1.5rem;
 }
+.dark .footer {
+    background-color: var(--oscuro-1);
+}
+.dark .footer .text-center,
+.dark .footer .text-right,
+.dark .footer .social-icons i,
+.dark .footer .text-right i {
+    color: #fff;
+}
 .arrow-up {
     grid-column: 6/7;
 }
