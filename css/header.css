@@ -11,7 +11,8 @@
     position: relative;
 }
 .dark .header__navbar{
-    background-color: hsl(174, 100%, 11%);
+    background-color: var(--oscuro-1);
+    /* background-color: hsl(174, 100%, 11%); */
 }
 .header__navbar-fixed {
     position: fixed;

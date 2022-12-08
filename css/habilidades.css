@@ -30,12 +30,16 @@
     margin: 0.6rem;
     display: inline-block;
 }
+.tarjeta-icono:hover {
+    box-shadow: var(--sombraDark);
+}
 .habilidad__line {
     display: flex;
     padding-right: 10px;
     font-size: 0.8rem;
     
 }
+
 
 @media screen and (max-width: 768px){
     .tarjeta-icono {

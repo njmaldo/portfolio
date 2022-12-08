@@ -1,3 +1,4 @@
+
 let menu = document.querySelector('#menu');
 let menu_bar = document.querySelector('#menu_bar');
 let btnSwitch = document.querySelector('#switch');

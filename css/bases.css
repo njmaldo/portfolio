@@ -1,9 +1,9 @@
 /* Variables */
 :root {
-    --bg-color: #dedede;
+    --bg-color: #e3e1e1;
     --primary-color: #024252;
     --secondary-color: #969696;
-    --thirt-color: #ffffff;
+    --third-color: #ffffff;
     --primary-shadow: #C1C1C1;
     --bottom-margin: 0.5rem;
     --bottom-margin-2: 1rem;
@@ -11,6 +11,7 @@
     --line-height: 1.7rem;
     --transition: 0.3s;
     --oscuro:#2c2c2c;
+    --oscuro-1: #3b3b3d;
     --sombraDark: 1px 1px 5px 5px rgba(170, 170, 170, 0.25);
     --sombraLight: 10px 10px 20px rgba(0,0,0, .16);
 }
@@ -22,8 +23,8 @@
     scroll-behavior: smooth;
 }
 body {
-    background-color: #c5c3be;
-    background-image: linear-gradient(90deg, #dcdad3 0%, #d4c9c2 100%);
+    background: rgb(235,232,232);
+    background: linear-gradient(90deg, rgba(235,232,232,1) 33%, rgba(233,233,233,1) 67%, rgba(235,232,232,1) 100%);
     font-family: 'Exo 2', sans-serif;
     transition: .3s ease all;
 }
@@ -39,10 +40,10 @@ body.dark {
 
 .dark .titulo,
 .dark .header__menu-bar {
-    color: #fff;
+    color: var(--third-color);
 }
 .dark .line {
-    background-color: #fff;
+    background-color: var(--third-color);
 }
 .line {
     background: #024252;

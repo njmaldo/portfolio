@@ -7,7 +7,12 @@
     width: 50%;
     height: 40%;
 }
+.project-img:hover {
+    transform: scale(1.1);
+    transition: 400ms ease-in-out all;
+}
 .contenedor-de-proyectos {
+    background: var(--third-color);
     display: flex;
     text-align: center;
     justify-content: center;
@@ -21,6 +26,9 @@
     margin-top: var(--bottom-margin);
 }
 .detalles-de-proyecto {
+    border-bottom: 1px solid rgba(51,51,51,.1);
+    border-top: 1px solid rgba(51,51,51,.1);
+    margin: 0rem 1rem 0rem 1rem;
     margin: var(--bottom-margin);
 }
 .tarjeta-de-proyecto p {
@@ -29,9 +37,9 @@
 }
 .tarjeta-de-proyecto {
     align-items: center;
-    background-color: #fff;
+    background: var(--third-color);;
     border-radius: 0.5rem;
-    box-shadow: 4px 4px 5px 0px var(--primary-shadow);
+    border: 1px solid var(--bg-color);
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -40,7 +48,7 @@
     max-width: 350px;
 }
 .tarjeta-de-proyecto:hover {
-    background-color: #f1f1f1;
+    box-shadow: var(--sombraDark);
 }
 .button {
     align-items: center;
