@@ -29,7 +29,7 @@ var form = document.getElementById("contacto__formulario");
         }
       }).then(response => {
         if (response.ok) {
-          status.innerHTML = "Gracias, pronto me pondré en contacto";
+          status.innerHTML = "Gracias, pronto me pondré en contacto...";
           form.reset()
         } else {
           response.json().then(data => {
