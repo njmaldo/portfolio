@@ -325,6 +325,10 @@
                         <img src="images/Certificado-One-G3-Frontend.png" alt="Curso de Angular" class="img" id="img">
                     </div>
                     <div class="about__detail">
+                        <h3><i class="fa fa-graduation-cap"></i>Java-POO</h3>
+                        <img src="images/Certificado-Java-Poo-G3-One.jpg" alt="Curso de Angular" class="img" id="img">
+                    </div>
+                    <div class="about__detail">
                         <h3><i class="fa fa-graduation-cap"></i>Angular</h3>
                         <img src="images/Certificado Angular Udemy .jpg" alt="Curso de Angular" class="img" id="img">
                     </div>
@@ -382,11 +386,14 @@
                         </div>
                         <hr>
                     </div>
-                    <form class="contacto__formulario">
-                        <legend class="form__label">Tu opinión es importante... </legend>
+                    <form class="contacto__formulario" 
+                          method="post" 
+                          action="https://formspree.io/f/xyyagaon" 
+                          id="contacto__formulario">
+                        <legend class="form__label">¿Quieres enviarme un mensaje? </legend>
                         <fieldset>
                             <div class="input-container">
-                                <input name="nombre" 
+                                <input  name="nombre" 
                                         id="nombre" 
                                         class="input" 
                                         type="text" 
@@ -426,6 +433,7 @@
                                 <button class="btn button" 
                                         type="submit"><span>Enviar</span></button>
                             <!-- </div> -->
+                            <p id="my-form-status"></p>
                         </fieldset>                       
                     </form>
                     
