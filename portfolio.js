@@ -15,12 +15,33 @@ btnSwitch.addEventListener('click', () => {
     btnSwitch.classList.toggle('active');
 });
 
-var form = document.getElementById("contacto__formulario");
+// Modal
+let modal = document.getElementById('myModal');
+let modalImg = document.getElementById('img01');
+let captionText = document.getElementById('caption');
+let mds = document.querySelectorAll('[data-modal]');
+
+  mds.forEach(function(md) {
+    md.addEventListener('click', function() {
+      modal.style.display = 'block';
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+    });
+    
+  });
+
+let span = document.getElementsByClassName('close')[0];
+span.onclick = function() {
+  modal.style.display = 'none';
+}
+
+// Formulario
+let form = document.getElementById("contacto__formulario");
     
     async function handleSubmit(event) {
       event.preventDefault();
-      var status = document.getElementById("my-form-status");
-      var data = new FormData(event.target);
+      let status = document.getElementById("my-form-status");
+      let data = new FormData(event.target);
       fetch(event.target.action, {
         method: form.method,
         body: data,

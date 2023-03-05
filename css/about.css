@@ -57,7 +57,7 @@
 }
 .about__detail:hover,
 .yo:hover {
-    background-color: #009688;
+    background-color: #4FADB9;
     transition: all 600ms ease;
 }
 .about__detail .fa {

@@ -4,7 +4,7 @@
 }
 .header__navbar {
     align-items: center;
-    background-color: #009688;
+    background-color: #4FADB9;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     padding: 2.5rem;
