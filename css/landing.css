@@ -1,0 +1,92 @@
+.habilidad__landing {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-areas: 'foto-mia-habilidad yo-1';
+    text-align: center;
+    margin: 2rem;
+}
+.label__img {
+    display: flex;
+    font-size: 1.5rem;
+    font-weight: 700;
+    cursor: pointer;
+    justify-content: center;
+}
+.foto-mia-habilidad {
+    position: absolute;
+    height: 11rem;
+    width: 11rem;
+    border-radius: 50%;
+    margin-top: 1rem;
+}
+.icono-habilidad {
+    height: 20rem;
+    width: 35rem;
+    cursor: pointer;
+    border-radius: 1.6rem;
+}
+.icono-habilidad:hover {
+    transform: scale(01.01);
+    transition: 400ms ease-in-out all;
+}
+
+.yo-1 {
+    text-align: justify;
+    grid-column: 2/7;
+    padding: 1.5rem;
+    margin: 1rem;
+    border-radius: 0.5rem;
+}
+.yo-1:hover {
+    background-color: #eae8e8;
+    transition: all 600ms ease;
+}
+.btn_link {
+    align-items: center;
+    background-color: #FFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Exo 2';
+    font-size: 14px;
+    font-weight: 500;
+    height: 25px;
+    width: 5rem;
+}
+
+@media screen and (max-width: 768px) {
+    .contenido__banner {
+        height: 45vh;
+    }
+    .yo-1 {
+        margin-left: 3.8rem;
+    }
+    .habilidad__landing {
+        margin: 5.5rem;
+    }
+    .foto-mia-habilidad {
+        margin-top: 2rem;
+    }
+    
+}
+@media screen and (max-width: 375px) {
+    .titulo {
+        margin: 2.5rem 5rem 1rem 0;
+    }
+    .yo-1 {
+        grid-column: 1/7;
+        margin: 1.25rem;
+        padding: 0;
+        padding-top: 15rem;;
+    }
+    .foto-mia-habilidad {
+        margin-left: 3rem;
+    }
+    .icono-habilidad {
+        height: 10rem;
+        width: 20rem;
+    }
+    .habilidad__landing {
+        margin: 1.25rem;
+    }
+} 

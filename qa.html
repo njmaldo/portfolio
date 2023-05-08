@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta class="header__enlace" charset="UTF-8">
+    <meta class="header__enlace" http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta class="header__enlace" name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Css -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;500;600;700&family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">  
+
+    <title>Portfolio-QA</title>
+</head>
+<body>
+    <section class="container" id="index">
+        <header class="header__navbar-fixed ">
+            <nav class="header__navbar">
+                <img  class="logo" src="images/logo.png" alt="Nestor J. Maldonado">
+                <ul class="header__menu" id="menu">
+                    <a class="header__enlace " href="index.html">Inicio</a>
+                    <a class="header__enlace " href="#habilidades">Skills</a>
+                    <a class="header__enlace " href="#proyectos">Proyectos</a>
+                    <a class="header__enlace " href="#cursos">Cursos</a>
+                    <a class="header__enlace " href="#certificados">Certificados</a>
+                    <a class="header__enlace " href="front.html">Frontend</a>
+                    <a class="header__enlace " target="_blank" href="cv.html">Curriculum </a>
+                </ul>
+                <button class="header__switch" id="switch">
+                    <span><i class="fas fa-sun fa-xl"></i></span>
+                    <span><i class="fas fa-moon fa-xl"></i></span>
+                </button>
+                <div class="header__menu-bar" id="menu_bar">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </header>
+        <main class="contenido">
+            <!-- Banner -->
+            <section class="contenido__banner">
+                <div class="contenido__overlay">
+                    <h2 class="contenido__text-center">Portfolio</h2>
+                </div>
+            </section>
+            <!-- End Banner -->
+            <!-- Habilidades -->
+            <section class="habilidades" id="habilidades">
+                <h2 class="titulo">Mis habilidades</h2>
+                <div class="line"></div>
+                <div class="contenedor-habilidad tarjeta-icono">
+                    <img src="images/jira-3.svg"
+                         alt="Jira"
+                         loading="lazy"
+                         class="icono">
+                    <label class="habilidad__line" 
+                           for="file">Jira</label>
+                    <progress class="habilidad__line-progress" 
+                              id="file" 
+                              max="100" 
+                              value="70" >
+                    </progress>
+                </div>
+                <div class="contenedor-habilidad tarjeta-icono">
+                    <img src="images/postman.svg"
+                         alt="html-5"
+                         loading="lazy"
+                         class="icono">
+                        <label class="habilidad__line" 
+                           for="file">Postman</label>
+                        <progress class="habilidad__line-progress" 
+                              id="file" 
+                              max="100" 
+                              value="75">
+                        </progress>
+                </div>
+                <div class="contenedor-habilidad tarjeta-icono">
+                    <img src="images/SQL.svg"
+                         alt="SQL"
+                         loading="lazy"
+                         class="icono">
+                        <label class="habilidad__line" 
+                               for="file">SQL</label>
+                        <progress class="habilidad__line-progress" 
+                                  id="file" 
+                                  max="100" 
+                                  value="70">
+                        </progress>
+                </div>
+                <div class="contenedor-habilidad tarjeta-icono">
+                    <img src="images/trello.svg"
+                         alt="Trello"
+                         loading="lazy"
+                         class="icono">
+                        <label class="habilidad__line" 
+                               for="file">Trello</label>
+                        <progress class="habilidad__line-progress" 
+                                  id="file" 
+                                  max="100" 
+                                  value="80">
+                        </progress>
+                </div>
+                <div class="contenedor-habilidad tarjeta-icono">
+                    <img src="images/scrum.png"
+                         alt="Css3"
+                         loading="lazy"
+                         class="icono">
+                        <label class="habilidad__line" 
+                               for="file">Metodología Ágil</label>
+                        <progress class="habilidad__line-progress" 
+                                  id="file" 
+                                  max="100" 
+                                  value="70">
+                        </progress>
+                </div> 
+                <div class="contenedor-habilidad tarjeta-icono">
+                    <img src="images/git.svg"
+                         alt="git"
+                         loading="lazy"
+                         class="icono">
+                        <label class="habilidad__line" 
+                               for="file">Git</label>
+                        <progress class="habilidad__line-progress" 
+                                  id="file" 
+                                  max="100" 
+                                  value="70">
+                        </progress>
+                </div>
+                <div class="contenedor-habilidad tarjeta-icono">
+                    <img src="images/github-icon-1.svg"
+                         alt="github"
+                         loading="lazy"
+                         class="icono">
+                        <label class="habilidad__line" 
+                               for="file">Github</label>
+                        <progress class="habilidad__line-progress" 
+                                  id="file" 
+                                  max="100" 
+                                  value="80">
+                        </progress>
+                </div>
+            </section>
+            <!-- End Habilidades -->
+            <!-- Proyectos Qa -->
+            <section class="proyectos_qa" id="proyectos">
+                <h2 class="titulo">Más Habilidades</h2>
+                <div class="line"></div>
+                    <div class="contenedor-de-proyectos_qa">
+                        <div class="tarjeta-de-proyecto_qa">
+                            <h3><i class="fa fa-diagram-project"></i> Mind Map</h3>
+                            <img src="images/SwagLabs-mp.jpg" alt="Mind Map" data-modal="9" class="project-img_qa" id="myImg">
+                        </div>
+                        <div class="tarjeta-de-proyecto_qa">
+                            <h3><i class="fa-solid fa-check"></i> Tests Executions</h3>
+                            <img src="images/test-execution.jpg" alt="Test execution" data-modal="9" class="project-img_qa" id="myImg">
+                        </div>
+                        <div class="tarjeta-de-proyecto_qa">
+                            <h3><i class="fa-solid fa-check"></i> Kanban</h3>
+                            <img src="images/Kanban.jpg" alt="Test execution" data-modal="9" class="project-img_qa" id="myImg">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Proyectos Qa -->
+            <!-- About -->
+            <section class="about" id="cursos">
+                <h2 class="titulo">Cursos</h2>
+                <hr>
+                <div class="about__row">
+                    <div class="about__detail">
+                        <h3><i class="fa fa-chalkboard-user"></i>Silvertech</h3>
+                        <hr>
+                        <p>Curso de Testing Manual Funcional Silvertech Programa creado por BidLab - EIDOS Global y Diagonal Asociación Civil, aquí aprendí a planificar, ejecutar y reportar pruebas, evaluar diversos softwares a fin de garantizar la calidad de los desarrollos.</p>
+                    </div>
+                    <div class="about__detail">
+                        <h3><i class="fa fa-chalkboard-user"></i>Oracle One</h3>
+                        <hr>
+                        <p>Oracle next education ONE es un programa de formación IT ideado por Oracle y Alura Latam, donde se realizan en paralelo los cursos de Innovación y Gestión con el de Programación.</p>
+                            <a target="_blank" href="https://app.aluracursos.com/user/nestorjmaldo/fullCertificate/a5e89cc018bd2e7883b5d84e7eba1e15"><button class="btn_link">Ver Perfil</button></a>
+                    </div>
+                    <div class="about__detail">
+                        <h3><i class="fa fa-chalkboard-user"></i>Egg Education</h3>
+                        <hr>
+                        <p>Curso de introducción a la programación, pseudocódigo. Una manera diferente de estudiar y de aprender a resolver diferentes problemas en equipo, cooperando y colaborando en grupos de 10 o más estudiantes.</p>
+                        
+                    </div>
+                    <div class="about__detail">
+                        <h3><i class="fa fa-chalkboard-user"></i>Udemy</h3>
+                        <hr>
+                        <p>Fundamentos de Angular, componentes, directivas, backup Git - GitHub, conexion con Base de datos (NodeJs y MongoDB), Build de producción, y despliegue. </p>
+                        
+                    </div>
+                    <div class="about__detail">
+                        <h3><i class="fa fa-chalkboard-user"></i>Udemy</h3>
+                        <hr>
+                        <p>Fundamentos de NodeJs, Rest, despliegues, Rutas, Middleware, Validaciones, Base de datos con Mongoose y MongoDB, Postman, JWT, Express etc.</p>
+                        
+                    </div>
+                    <div class="about__detail">
+                        <h3><i class="fa fa-chalkboard-user"></i>Udemy</h3>
+                        <hr>
+                        <p>Cursando React de cero a experto, Context API, MERN, Hooks, Firestore, JWT, Testing, Autenticaciones, Despliegues, CRUD, Logs, MUI, Múltiple Routers.</p>
+                        
+                    </div>
+                    <div class="about__detail">
+                        <h3><i class="fa fa-chalkboard-user"></i>FreeCodeCamp</h3>
+                        <hr>
+                        <p>Reponsive web desing FlexBox, Grid, Precompiladores Scss</p>
+                        
+                    </div>
+                    
+                </div>
+            </section>
+            <!-- End about -->
+            <!-- Certificados -->
+            <section class="about" id="certificados">
+                <h2 class="titulo">Certificados</h2>
+                <div class="line"></div>
+                <div class="container-certificados">
+                    
+                    <div class="modal" id="myModal" >
+                        <span class="close" onclick="document.getElementById('myModal').style.display='none' ">&times;</span>
+                        <img class="modal-content" id="img01">
+                        <div class="caption"></div>
+                    </div>
+                    <div class="about__detail">
+                        <h3><i class="fa fa-graduation-cap"></i>Frontend</h3>
+                        <img src="images/Certificado-One-G3-Frontend.png" alt="Curso de Frontend" data-modal="1" class="img" id="myImg">
+                        
+                    </div>
+                    
+                    <div class="about__detail">
+                        <h3><i class="fa fa-graduation-cap"></i>Java-POO</h3>
+                        <img src="images/Certificado-Java-Poo-G3-One.jpg" alt="Curso de Java" data-modal="2" class="img" id="myImg">
+    
+                    </div>
+                    <div class="about__detail" >
+                        <h3><i class="fa fa-graduation-cap"></i>Angular</h3>
+                        <img src="images/Certificado Angular Udemy .jpg" alt="Curso de Angular" data-modal="3" class="img" id="myImg">
+                    </div>
+                    <div class="about__detail">
+                        <h3><i class="fa fa-graduation-cap"></i>Desarrollo Personal</h3>
+                        <img src="images/Certificado-G3-One.jpg" alt="Curso de Desarrolo personal" data-modal="4" class="img" id="myImg">
+                    </div>
+                    <div class="about__detail">
+                        <h3><i class="fa fa-graduation-cap"></i>NodeJs</h3>
+                        <img src="images/Certificado Node Udemy .jpg" alt="Curso de NodeJs" data-modal="5" class="img" id="myImg">
+                    </div>
+                    <div class="about__detail">
+                        <h3><i class="fa fa-graduation-cap"></i>Programa G3 ONE</h3>
+                        <img src="images/Fin-Programa-G3-ONE.jpg" alt="Curso Oracle ONE" data-modal="6" class="img" id="myImg">
+                    </div>
+                    <div class="about__detail">
+                        <h3><i class="fa fa-graduation-cap"></i>Egg Education</h3>
+                        <img src="images/Certificado-Egg.jpg" alt="Curso de Pseudocódigo" data-modal="7" class="img" id="myImg">
+                    </div>
+                    <div class="about__detail">
+                        <h3><i class="fa fa-graduation-cap"></i>AWS</h3>
+                        <img src="images/Certificado-AWS.jpg" alt="Curso de AWS" data-modal="8" class="img" id="myImg">
+                    </div>
+                </div>
+            </section>
+            <!-- End Certificados -->
+            <!-- Contacto -->
+            <section class="contacto">
+                <h2 class="titulo">Contacto</h2>
+                <div class="line"></div>
+                <div class="contacto__container">
+                    <div class="contacto__ref">
+                        <div class="address-box">
+                            <a href="#habilidades">Skills</a>
+                        </div>
+                        <hr>
+                        <div class="address-box">
+                            <a href="#proyectos">Proyectos</a>
+                        </div>
+                        <hr>
+                        <div class="address-box">
+                            <a href="#cursos">Cursos</a>
+                        </div>
+                        <hr>
+                        <div class="address-box">
+                            <a href="#certificados">Certificados</a>
+                        </div>
+                        <hr>
+                        <div class="address-box">
+                            <a href="front.html">Frontend</a>
+                        </div>
+                        <hr>
+                        <div class="address-box">
+                            <a href="cv.html">Curriculum</a>
+                        </div>
+                        <hr>
+                    </div>
+                    <form class="contacto__formulario" 
+                          method="post" 
+                          action="https://formspree.io/f/xyyagaon" 
+                          id="contacto__formulario">
+                        <legend class="form__label">¿Cómo puedo ayudarte? Dejame un mensaje...</legend>
+                        <fieldset>
+                            <div class="input-container">
+                                <input  name="nombre" 
+                                        id="nombre" 
+                                        class="input" 
+                                        type="text" 
+                                        placeholder="Nombre" 
+                                        data-nombre
+                                        data-tipo="nombre"
+                                        required>
+                                <label class="input-label" for="nombre">Nombre</label>
+                                <span class="input-message-error">Este campo no es válido</span>
+                            </div>
+                            <div class="input-container">
+                                <input name="email" 
+                                        id="email" 
+                                        class="input" 
+                                        type="email" 
+                                        placeholder="E-mail" 
+                                        data-email
+                                        data-tipo="email"
+                                        required>
+                                <label class="input-label" for="email">Email</label>
+                                <span class="input-message-error">Este campo no es válido</span>
+                            </div>
+        
+                            <div class="textarea-container contacto_mensaje-container">
+                                <textarea class="textarea contacto_mensaje"
+                                          name="mensaje"
+                                          id="mensaje"
+                                          placeholder="Mensaje"
+                                          required
+                                          data-desc
+                                          data-tipo="mensaje">
+                                </textarea>
+                                <label class="textarea-label" for="mensaje">Mensaje</label>
+                                <span class="textarea-message-error">Este campo es requerido</span>
+                            </div>
+                            <!-- <div class="contacto__btn"> -->
+                                <button class="btn button" 
+                                        type="submit"><span>Enviar</span></button>
+                            <!-- </div> -->
+                            <p id="my-form-status"></p>
+                        </fieldset>                       
+                    </form>
+                    
+                    <div class="contacto__ref ">
+                        <!-- <div class="address-box">
+                            <a href="tel:+5492901487488">
+                                <i class="fa-solid fa-mobile"></i> 
+                                Teléfono: <br><br> +5492901487488</a>
+                        </div> -->
+                        <!-- <hr> -->
+                        <div class="address-box right">
+                            <a href="mailto:nestorjmaldo@gmail.com">
+                                <i class="fa fa-envelope"></i>
+                                E-Mail:<br><br> nestorjmaldo@gmail.com</a>
+                        </div>
+                        <hr>
+                        <div class="address-box right">
+                            <p><i class="fa-brands fa-github fa-xl"></i> GitHub:</p>
+                            <p><a href="https://github.com/njmaldo"><br>Néstor J. M.</a>
+                            </p>
+                        </div>
+                        <hr>
+                        <div class="address-box right">
+                            <p><i class="fa fa-map-marker" aria-hidden="true"></i> Ubicación:</p>
+                            <br>Ushuaia - Tierra del Fuego
+                                <br><br>Argentina
+                        </div>
+                        <hr>
+                    </div>
+                </div>
+            </section>
+            <!--End Contacto -->
+        </main>
+        <!-- End Main -->
+                <!-- Section Footer -->
+                <footer class="footer" id="footer" >
+                    <div class="footer_logo">
+                        <img src="images/logo.png" alt="logo" />
+                    </div>
+                    <div class="social-icons">
+                        <a class="arrow-up" href="#index" >
+                            <i class="fa-solid fa-arrow-up fa-xl"></i></a>
+                        <a  href="#"><i class="fa-brands fa-facebook fa-xl" aria-hidden="true"></i></a>
+                        <a  href="#"><i class="fa-brands fa-twitter fa-xl" aria-hidden="true"></i></a>
+                        <a  href="https://www.linkedin.com/in/nestorjmaldonado/"><i aria-hidden="true" class="fa-brands fa-linkedin fa-xl"></i></a>
+                        <a  href="https://github.com/njmaldo"><i class="fa-brands fa-github fa-xl" aria-hidden="true"></i></a>
+                        <a  href="https://t.me/NestorJMaldo"><i class="fa-brands fa-telegram fa-xl" aria-hidden="true"></i></a>       
+                    </div>
+                    <div class="line"></div>
+                    <div class="text-center">
+                        <p>&copy Néstor J. Maldonado - 2022 Todos los derechos reservados.</p>
+                    </div>
+                    <div class="text-right">
+                        <p>Made with <i class="fa fa-heart" aria-hidden="true"></i> by: <a href="mailto:nestorjmaldo@gmail.com">N.J.Maldonado</a>
+                        </p>
+                    </div>
+                </footer>
+                <!-- End Footer -->
+    </section>
+<script src="portfolio.js"></script>
+<script src="app.js" type="module"></script>
+</body>
+</html>

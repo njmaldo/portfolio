@@ -1,0 +1,51 @@
+.proyectos_qa {
+    grid-column: 1/5;
+    margin-top: 3.5rem;
+}
+.contenedor-de-proyectos_qa {
+    background: var(--third-color);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 0.5rem;
+}
+.tarjeta-de-proyecto_qa {
+    align-items: center;
+    background: var(--bg-color);;
+    border-radius: 0.5rem;
+    border: 1px solid var(--bg-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    max-width: 450px;
+    height: 370px;
+}
+.tarjeta-de-proyecto_qa:hover {
+    box-shadow: var(--sombraDark);
+}
+.project-img_qa {
+    border: #ccc 1px solid;
+    width: 90%;
+    height: 80%; 
+}
+.project-img_qa:hover {
+    transform: scale(01.01);
+    transition: 400ms ease-in-out all;
+}
+@media screen and (max-width: 768px) {
+    .contenedor-de-proyectos_qa {
+        flex-wrap: wrap;
+    }
+    .tarjeta-de-proyecto_qa {
+        max-width: 100%;
+        height: 500px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .tarjeta-de-proyecto_qa {
+        max-width: 100%;
+        height: 300px;
+    }
+}

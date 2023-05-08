@@ -29,7 +29,9 @@
 .btn {
     width: 100%;
 }
-
+.button {
+    margin-top: 1rem;
+}
 .contacto__ref {
     border-radius: 5px;
     border: 1px solid var(--bg-color);
@@ -49,7 +51,11 @@
 .address-box:hover {
     box-shadow: var(--sombraDark);
 }
-
+@media screen and (max-width: 768px) {
+    .contacto__ref {
+        display: none;
+    }
+}
 @media screen and (max-width: 375px) {
     .contacto__formulario {
         display: block;

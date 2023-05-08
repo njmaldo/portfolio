@@ -13,7 +13,8 @@ export const validar = (input) => {
         input.parentElement.classList.add('input-container--invalid');
         input.parentElement.classList.add('textarea-container--invalid');
         input.parentElement.querySelector('.input-message-error').innerHTML = mostrarMensajeDeError(tipoDeInput,input);
-        // input.parentElement.querySelector('.textarea-message-error').innerHTML = mostrarMensajeDeError(tipoDeInput,input);
+        input.parentElement.querySelector('.textarea-message-error').innerHTML = mostrarMensajeDeError(tipoDeInput,input);
+    console.log(mostrarMensajeDeError(tipoDeInput,input))
     }
 }
 const validador = {};
@@ -26,6 +27,9 @@ const msgsError = {
         valueMissing: 'El campo Email no puede estar vacio',
         typeMismatch: 'El correo no es válido.'
     },
+    mensaje: {
+        valueMissing: 'Debe escribir el mensaje.'
+    }
 }
 const tipoDeErrores = [
     'valueMissing',

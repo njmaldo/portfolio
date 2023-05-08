@@ -3,6 +3,7 @@
     grid-column: 1/5;
     margin-top: 3.5rem;
 }
+
 .yo {
     padding: 1rem;
     line-height: 1.5rem;
@@ -22,6 +23,7 @@
     justify-content: space-evenly;
 }
 .about__detail {
+    
     display: flex;
     flex-direction: column;
     position: relative;
@@ -43,25 +45,26 @@
     padding-bottom: 1rem;
 }
 .about__detail p {
-	padding: 0 0 5px;
+    margin-top: 0.5rem;
     font-size: 14px;
     max-width: 16rem;
+    height: 80%;
 
 }
 .about__detail:hover a, 
 .about__detail:hover h3, 
 .about__detail:hover p,
 .yo:hover {
-	color: #dedede;
+	color: #fff;
     transition: all 600ms ease-in-out;
 }
 .about__detail:hover,
 .yo:hover {
-    background-color: #4FADB9;
+    background-color: #68bcb8;
     transition: all 600ms ease;
 }
 .about__detail .fa {
-    border: 2px solid #009688;
+    border: 2px solid #68bcb8;
     border-radius: 100%;
     color: #333;
     font-size: 20px;

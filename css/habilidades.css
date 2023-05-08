@@ -40,7 +40,6 @@
     
 }
 
-
 @media screen and (max-width: 768px){
     .tarjeta-icono {
         background-color: #fff;
@@ -51,19 +50,19 @@
         display: inline-block;
     }
     .icono {
-        width: 8.875rem;
-        height: 8.25rem;
+        width: 12.875rem;
+        height: 9.25rem;
     }
-    .icono:hover {
+    /* .icono:hover {
         height: 8rem;
-    }
+        
+    } */
 }
-/* @media screen and (max-width: 375px) {
-    .icono {
-        width: 7.875rem;
-        height: 7.25rem;
+@media screen and (max-width: 375px) {
+    .tarjeta-icono {
+        width: 90%;
     }
-    .icono:hover {
+    /* .icono:hover {
         height: 7rem;
-    }
-} */
+    } */
+}

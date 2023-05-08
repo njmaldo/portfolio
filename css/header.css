@@ -4,7 +4,7 @@
 }
 .header__navbar {
     align-items: center;
-    background-color: #4FADB9;
+    background-color: #cccccc;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     padding: 2.5rem;
@@ -33,7 +33,7 @@
     padding: 2.1rem 0rem 0.5rem 1.5rem;
 }
 .header__menu {
-    grid-column: 3 / 12;
+    grid-column: 4 / 12;
     display: flex;
 }
 .header__menu li {
@@ -64,36 +64,39 @@
     .header__menu-bar {
         display: block;
         grid-column: 12/13;
-        font-size: 2em;
+        font-size: 2.2em;
         cursor: pointer;
     }
     .header__menu {
         display: grid;
         position: absolute;
         align-items: center;
-        width: 100%;
+        width: 80%;
         height: 54vh;
         margin-top: 41.5em;
         background-color: #cccccc;
         transform: translateX(170%);
         transition: all 600ms;
-    }
-    .header__navbar .menu_toggle {
-        transform: translateX(70%);
+        justify-content: center;
     }
     .header__menu a:hover {
         color: #fff;
+    }
+    .header__navbar .menu_toggle {
+        transform: translateX(70%);
     }
     .header__switch {
         grid-column: 8/9;
     }
 }
 @media screen and (max-width: 375px) {
-    .header__menu {
-        margin-top: 29.5em;
-    }
+
     .header__navbar .menu_toggle {
         transform: translateX(35%);
+    }
+    .header__menu {
+        margin-top: 29rem;
+        width: 100%;
     }
     .header__switch {
         grid-column: 6/7;

@@ -5,7 +5,7 @@ let btnSwitch = document.querySelector('#switch');
 
 menu_bar.addEventListener('click', () => {
     menu.classList.toggle('menu_toggle');
-    setTimeout(toggle, 5000);
+    // setTimeout(toggle, 5000);
 });
 const toggle = () => {
     location.reload();
@@ -50,7 +50,7 @@ let form = document.getElementById("contacto__formulario");
         }
       }).then(response => {
         if (response.ok) {
-          status.innerHTML = "Gracias, pronto me pondré en contacto...";
+          status.innerHTML = "Gracias! Pronto me pondré en contacto...";
           form.reset()
         } else {
           response.json().then(data => {
