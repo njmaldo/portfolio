@@ -23,19 +23,18 @@
     justify-content: space-evenly;
 }
 .about__detail {
-    
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    line-height: 1.2rem;
-    padding: 1rem;
-    margin: 0.5rem;
     background: #ffffff;
     border-radius: 0.5rem;
     box-shadow: 4px 4px 5px 0px var(--primary-shadow);
+    display: flex;
+    flex-direction: column;
     justify-content: flex-start;
-    min-height: 15rem;
+    line-height: 1.2rem;
+    margin: 0.5rem;
     max-width: 18rem;
+    min-height: 15rem;
+    padding: 1rem;
+    position: relative;
 }
 .about__detail h3 {
     color: #333;
