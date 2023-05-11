@@ -76,3 +76,9 @@
         width: 100%;
     }
 }
+/* @media screen and (max-width: 375px) {
+    .project-img_qa {
+        width: 52%;
+        height: 65%;
+    }
+} */

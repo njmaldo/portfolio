@@ -53,16 +53,10 @@
         width: 12.875rem;
         height: 9.25rem;
     }
-    /* .icono:hover {
-        height: 8rem;
-        
-    } */
 }
 @media screen and (max-width: 375px) {
     .tarjeta-icono {
-        width: 90%;
+        width: 85%;
     }
-    /* .icono:hover {
-        height: 7rem;
-    } */
+
 }

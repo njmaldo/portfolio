@@ -28,13 +28,12 @@
     top: 0;
   }
   .contenido__text-center {
-    padding: 12.75rem;
+    padding: 7.75rem;
     color: #fff;
     font-size: 75px;
     font-weight: 700;
-    display: flex;
-    /* margin-left: 5rem; */
-    justify-content: flex-start;
+    position: absolute;
+    left: 3rem;
 }
   .h3_contenido__text-center {
 	padding: .5rem;
@@ -60,6 +59,7 @@
     .contenido__text-center {
         font-size: 60px;
         padding: 4.5rem;
+        left: 0;
     }
     
 }
