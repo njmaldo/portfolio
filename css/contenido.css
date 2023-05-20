@@ -41,13 +41,31 @@
 	font-size: 25px;
     font-weight: 700;
 }
-
+@media (min-width: 1270px) {
+    .contenido__banner {
+        height: 65vh;
+    }
+    .contenido__text-center {
+        padding: 11rem;
+        margin: 3rem;
+    }
+    
+  }
+  @media (max-width: 991px){
+    .contenido__banner {
+        height: 50vh;
+    }
+    .contenido__text-center {
+        padding: 15rem;
+        margin: 0;
+    }
+  }
 @media screen and (max-width: 768px){
     .contenido__banner {
         height: 45vh;
     }
     .contenido__text-center {
-        padding: 14rem;
+        padding: 12rem;
         margin: 0;
     }
     

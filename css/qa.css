@@ -35,6 +35,12 @@
     transform: scale(01.01);
     transition: 400ms ease-in-out all;
 }
+@media (min-width: 1270px){
+    .foto-mia-habilidad {
+        margin-top: 0;
+        margin-left: 2rem;
+    }
+}
 @media screen and (max-width: 768px) {
     .contenedor-de-proyectos_qa {
         flex-wrap: wrap;
@@ -43,6 +49,7 @@
         max-width: 97%;
         height: 500px;
     }
+    
 }
 @media screen and (max-width: 375px) {
     .tarjeta-de-proyecto_qa {
