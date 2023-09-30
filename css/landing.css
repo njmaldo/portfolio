@@ -53,6 +53,30 @@
     height: 25px;
     width: 5rem;
 }
+@media screen and (max-width: 1680px) {
+    .contenido__banner {
+        height: 45vh;
+    }
+    .icono-habilidad {
+        height: 20rem;
+        width: 31rem;
+    }
+    .habilidad__landing {
+        margin: 3rem;
+    }
+}
+@media screen and (max-width: 1280px) {
+    .contenido__banner {
+        height: 56vh;
+    }
+    .icono-habilidad {
+        height: 15rem;
+        width: 22rem;
+    }
+    .habilidad__landing {
+        margin: 2rem;
+    }
+}
 
 @media screen and (max-width: 768px) {
     .contenido__banner {
@@ -60,6 +84,10 @@
     }
     .yo-1 {
         margin-left: 3.8rem;
+    }
+    .icono-habilidad {
+        height: 20rem;
+        width: 37rem;
     }
     .habilidad__landing {
         margin: 5.5rem;
